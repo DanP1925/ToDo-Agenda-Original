@@ -1,0 +1,382 @@
+body{
+    background: #045FB4;
+    font-family: 'Arial';
+}
+
+form{
+    background: #CEE3F6;
+    border: 3px gray solid;
+}
+
+td {
+    border: 1px #DDD solid;
+    cursor: pointer;
+}
+
+.selected {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.selected td{
+    color: blue;
+}
+
+#todoTitle{
+    margin-top: 18px;
+    position: relative;
+    top: 10%;
+    left: 30%;
+    width: 220px;
+    height: 220px;
+}
+
+#the,
+#todo,
+#agenda{
+    padding: 0;
+    border: 0;
+}
+
+#LogInOptions{
+    position: relative;
+    left: 10%;
+    margin-bottom: 18px;
+}
+
+#LogInOptions label{
+    display: inline-block;
+    width: 40%;
+}
+
+#newUserOptions {
+    position: relative;
+    left: 30%;
+    margin-bottom: 18px;
+}
+
+#loginButtons{
+    position: relative;
+    left: 24%;
+    margin-bottom: 18px;
+}
+
+#loginContainer, #newData{
+    display: block;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2, h3, h4 ,h5{
+    color: #FFF;
+    border: 3px gray solid;
+    text-align: center;
+    background: black;
+    display: block;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#informationLabel{
+    text-align: center;
+    background: black;
+    display: block;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+#newUserInput{
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    margin-top:  12px;
+    margin-bottom: 12px;
+}
+
+#newUserInput label{
+    display: inline-block;
+    width: 30%;
+}
+
+.taskData{
+    color: #FFF;
+}
+
+.myButton {
+    -moz-box-shadow: 0px 1px 0px 0px #1c1b18;
+    -webkit-box-shadow: 0px 1px 0px 0px #1c1b18;
+    box-shadow: 0px 1px 0px 0px #1c1b18;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eae0c2), color-stop(1, #ccc2a6));
+    background:-moz-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+    background:-webkit-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+    background:-o-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+    background:-ms-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+    background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eae0c2', endColorstr='#ccc2a6',GradientType=0);
+    background-color:#eae0c2;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+    border:2px solid #333029;
+    display:inline-block;
+    cursor:pointer;
+    color:#505739;
+    font-family:Arial;
+    font-size:14px;
+    font-weight:bold;
+    padding:8px 12px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ccc2a6), color-stop(1, #eae0c2));
+    background:-moz-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+    background:-webkit-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+    background:-o-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+    background:-ms-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+    background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccc2a6', endColorstr='#eae0c2',GradientType=0);
+    background-color:#ccc2a6;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+#dailyBody form, #descriptionBody form, #monthlyBody form, #newTaskBody form{
+    background: none;
+    border: none;
+}
+
+
+#dailyHeader{
+    display: inline-block;
+    width: 100%;
+}
+
+#dailyHeader div{
+    display: inline-block;
+}
+
+#dailyLogOutWelcome{
+    width: 60%;
+}
+
+#dailyLogOutWelcome form{
+    margin-left: 2%;
+}
+
+#dailyLogOutWelcome form input{
+    margin-top: 18px;
+    display: inline-block;
+}
+
+#logOut{
+    width: 28%;
+    display: inline-block;
+}
+
+
+#welcomeMessage{
+    width: 70%;
+    margin-top: 18px;
+    float: right;
+}
+
+#welcomeMessage h2, h3{
+    margin-left: 10%;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    width: 80%;
+}
+
+
+#taskOptions{
+    float: right;
+    display: inline-block;
+    width: 40%;
+}
+
+#taskOptions form{
+    float: right;
+    margin-right: 20px;
+}
+
+#taskOptions form input{
+    margin-top: 18px;
+}
+
+#dailyBodyGroup{
+    display: inline-block;
+    width: 100%;
+}
+
+#dailyBodyGroup div{
+    display: inline-block;
+}
+
+#monthlyViewButtons, #dailyViewButtons{
+    width: 18%;
+}
+
+#monthlyViewButtons form{
+    margin-top: 50px;
+}
+
+#monthlyViewButtons form input, #monthlyViewButtons form button, #dailyViewButtons form input, #dailyViewButtons form button{
+    display: block;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+#taskTable{
+    float: right;
+    width: 78%;
+    background: #FFF;
+    margin-top: 20px;
+    margin-right: 4%;
+}
+
+#tableTitle{
+    background: #E6E6FA;
+    color: #333;
+    font-family: sans-serif;
+    font-size: .9em;
+    font-weight: 300;
+    text-align: left;
+    line-height: 40px;
+    border-spacing: 0;
+    border: 2px solid #975997;
+    width: 500px;
+    margin: 50px auto;
+    margin-bottom: 0px;
+}
+
+#taskList{
+    color: #333;
+    font-family: sans-serif;
+    font-size: .9em;
+    font-weight: 300;
+    text-align: left;
+    line-height: 40px;
+    border-spacing: 0;
+    border: 2px solid #975997;
+    width: 500px;
+    margin: 50px auto;
+    margin-top: 0px;
+}
+
+#dateOptions{
+    margin-top: 20px;
+    width: 78%;
+    float: right;
+    margin-right: 4%;
+}
+
+#dateButtons{
+    text-align: center;
+}
+
+#newTaskHead{
+    width: 100%;
+    height: 80px;
+    margin-top: 24px;
+}
+
+#newTaskHead div{
+    display: inline-block;
+}
+
+#newTaskTitle label, #newTaskDescription label{
+    display: inline-block;
+    color: #FFF;
+    width: 90px;
+}
+
+#newTaskTitle input{ 
+    width: 50%;
+}
+
+#newTaskDates label{
+    display: inline-block;
+    color: #FFF;
+    width: 140px;
+}
+
+#newTaskTitle{
+    width:70%;
+}
+
+#newTaskDates{
+    float: right;
+    width:30%;
+}
+
+#newTaskDescription input{
+    display: inline-block;
+    width: 70%;
+    height: 250px;
+}
+
+#newTaskDescription{
+    margin-bottom: 20px;
+}
+
+#newTaskButtons{
+    width: 80%;
+    margin-right: 20px;
+}
+
+#newTaskButtons input{
+    float: right;
+    margin-right: 6px;
+}
+
+#monthlyBodyGroup{
+    width: 100%;
+}
+
+#monthlyBodyGroup div{
+    display: inline-block;
+}
+
+#calendar{
+    width: 38%;
+    margin-top: 30px;
+}
+
+#calendar table{
+    margin: auto;
+}
+
+#mostImportantTask{
+    width: 41%;
+}
+
+#mostImportantTask label{
+    color: #FFF;
+}
+
+#mostImportantTask h2, #mostImportantTask  h3, #mostImportantTask h4{
+    width: 100%;
+    background: white;
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#mostImportantDescription{
+    height: 200px;
+}
+
+#taskData label{
+    color: white;
+}
+
+#taskData h5{
+    width: 80%;
+}
